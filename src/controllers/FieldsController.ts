@@ -38,7 +38,7 @@ class FieldsController {
         unity: field?.unity,
         coordinates: {
           latitude: field?.coordinates.latitude,
-          logitude: field?.coordinates.longitude
+          longitude: field?.coordinates.longitude
         },
         polygons: field?.polygons
       }
